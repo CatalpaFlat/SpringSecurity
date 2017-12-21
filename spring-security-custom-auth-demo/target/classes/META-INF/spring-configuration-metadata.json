@@ -1,0 +1,22 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "com.chen.core.config.CustomYmlConfig",
+      "name": "catalpaFlat",
+      "type": "com.chen.core.config.CustomYmlConfig"
+    }
+  ],
+  "properties": [
+    {
+      "sourceType": "com.chen.core.config.CustomYmlConfig",
+      "name": "catalpaFlat.logins",
+      "type": "com.chen.core.entity.to.LoginsTO"
+    },
+    {
+      "sourceType": "com.chen.core.config.CustomYmlConfig",
+      "name": "catalpaFlat.security",
+      "type": "com.chen.core.entity.to.CustomSecurityAttributeTO"
+    }
+  ]
+}

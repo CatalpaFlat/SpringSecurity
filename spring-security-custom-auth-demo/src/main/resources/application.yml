@@ -1,0 +1,25 @@
+server:
+  port: 8383
+spring:
+#redis
+  redis:
+    port: 6379
+    host: 192.168.137.111
+
+#开启security
+security:
+  basic:
+    enabled: true
+
+#自定义
+catalpaFlat:
+  security:
+    antMatchers:
+      permitAll: /code/sms/*,/login/mobile
+  logins:
+    mobile:
+      url: /login/mobile
+      parameter:
+        mobile: mobile
+        code: smsCode
+      httpMethod: POST
